@@ -5,5 +5,5 @@ app.get("", (req, res) => {
   return res.json({ message: "Hey there ,I am node js in container" });
 });
 app.listen(PORT, () => {
-  console.log("Server started on PORT ");
+  console.log("Server started on PORT 80");
 });
