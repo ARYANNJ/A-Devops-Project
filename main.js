@@ -6,6 +6,6 @@ app.get("", (req, res) => {
 });
 app.listen(PORT, () => {
   console.log(
-    "Server started on PORT 80 and now we have Created pipeline using jenkins"
+    "Server started on PORT 80 and now we have Created pipeline using jenkins and now we are ready for ansible"
   );
 });
